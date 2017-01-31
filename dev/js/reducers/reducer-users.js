@@ -1,33 +1,28 @@
-/*
- * The users reducer will always return an array of users no matter what
- * You need to return something, so if there are no users then just return an empty array
- * */
-
-export default function () {
+export default function() {
     return [
         {
             id: 1,
-            first: "Bucky",
-            last: "Roberts",
-            age: 71,
-            description: "Bucky is a React developer and YouTuber",
-            thumbnail: "http://i.imgur.com/7yUvePI.jpg"
+            first: "foo",
+            last: "bar",
+            age: "20",
+            description: "used regularly in examples",
+            thumbnail: ""
         },
         {
             id: 2,
-            first: "Joby",
-            last: "Wasilenko",
-            age: 27,
-            description: "Joby loves the Packers, cheese, and turtles.",
-            thumbnail: "http://i.imgur.com/52xRlm8.png"
+            first: "John",
+            last: "Doe",
+            age: "30",
+            description: "Not used in examples anymore",
+            thumbnail: ""
         },
         {
-            id: 3,
-            first: "Madison",
-            last: "Williams",
-            age: 24,
-            description: "Madi likes her dog but it is really annoying.",
-            thumbnail: "http://i.imgur.com/4EMtxHB.png"
+            id: "3",
+            first: "mumbai",
+            last: "India",
+            age: "68",
+            description: "yeh mera india, I love my india",
+            thumbnail: ""
         }
     ]
 }
