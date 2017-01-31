@@ -1,3 +1,4 @@
+/*creating a user information file*/
 export default function() {
     return [
         {

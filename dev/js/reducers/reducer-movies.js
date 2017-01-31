@@ -1,3 +1,4 @@
+/*Creating a movie information file */
 export default function () {
     return [
         {
