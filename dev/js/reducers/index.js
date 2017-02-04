@@ -5,10 +5,12 @@ import {combineReducers} from 'redux';
 * Reducer --> Store --> Provider --> Component*/
 import UserReducers from './reducer-users';
 import MovieReducers from './reducer-movies';
+import ActiveUserReducers from './reducer-active-user';
 
 const allReducers = combineReducers({
     users: UserReducers,
-    movie: MovieReducers
+    movie: MovieReducers,
+    activeUsers: ActiveUserReducers
 });
 
 export default allReducers;
